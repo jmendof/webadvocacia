@@ -43,7 +43,7 @@ header {
 .logo h1 {
     font-size: 1.2em;
     font-weight:bolder;
-    color: black;
+    color: #2D2F30;
 }
 /*END LOGO*/
 
@@ -75,9 +75,10 @@ header {
 /*############## MAIN #############*/
 
 /* APRESENTAÇÃO */
-.apresentacao{
+.apresentacao-section{
     margin-top: 1.2em;
     display: flex;
+    font-family: var(--fonte-da-web);
 }
 
 .texto-apresentacao{
@@ -87,33 +88,29 @@ header {
     padding-right: 2em;
     text-align: left;
     width: 75%;
-    
 }
 
 .titulo{
-    margin-top: 0;
     color: #094B72;
-    font-family: var(--fonte-da-web);
-    display: flex;
     font-size: 4em;
 }
 
 .sub-titulo{
     color: #363940;
     font-size: medium;
-    font-family: var(--fonte-da-web);
-    display: flex;
  }
 
 .quadro-empresas{
     color: #33475B;
     font-size: small;
-    font-family: var(--fonte-da-web);
-    display: flex;
 }
 
 /* END APRESENTAÇÃO */
 
+/* FOTO */
+.apresentacao-imagem {
+    width: 25%;
+}
 .foto-principal{
     width: 90%;
     border-radius: 5%; /*Deixa a imagem arredondada*/
@@ -128,5 +125,19 @@ header {
     
 }
 /* END FOTO */
+
+/* Servicos */
+.servicos-section {
+    margin-top: 1.2em;
+    width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
+    margin-left: -20em; /* Tirando a margin da esquerda*/
+    display: flex;
+    background-color: #F2F7FF;
+}
+
+.texto-servicos{
+    padding: 0 20em; /* Colocando padding de novo*/
+}
+
 
 /*############## END MAIN #############*/

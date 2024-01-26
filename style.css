@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
-    --background-color: #ffffff;
-    --font-color: #33475B;
-    --font: poppins, sans-serif; 
+    --cor-de-fundo: #FFFFFF;
+    --cor-titulo: #094B72;
+    --cor-sub-titulo: #363940;
+    --cor-letras: #33475B;
+    --azul-principal: #094B72;
+    --fonte-da-barra-de-navegacao: poppins, sans-serif; 
+    --fonte-da-web: 'Playfair Display', serif;
 }
 
 /*############## BODY #############*/
 body {
-    background-color: var(--background-color);
+    background-color: var(--cor-de-fundo);
     margin: 0;
     padding: 0;
-    font-family: var(--font);
+    font-family: var(--fonte-da-barra-de-navegacao);
 }
 /*############## END BODY #############*/
 
 /*############## HEADER #############*/
 header {
+    font-family: var(--fonte-da-barra-de-navegacao);
     color: #33475B;
     display: flex; 
     align-items: center; 
@@ -60,8 +66,44 @@ header {
 }
 
 .navbar a:visited {
-    color: var(--font-color); /*Keep the same color after clicked: #33475B*/ 
+    color: var(--cor-letras); /*Keep the same color after clicked: #33475B*/ 
 }
 /*END NAVBAR*/
 
 /*############## END HEADER #############*/
+
+.apresentacao{
+    text-align: right;
+}
+
+.texto-apresentacao{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.titulo{
+    color: #094B72;
+    font-family: var(--fonte-da-web);
+    display: flex;
+}
+
+.sub-titulo{
+    color: #363940;
+    font-size: medium;
+    font-family: var(--fonte-da-web);
+    display: flex;
+ }
+
+.quadro-empresas{
+    color: #33475B;
+    font-size: small;
+    font-family: var(--fonte-da-web);
+    display: flex;
+
+}
+
+.foto-principal{
+     width: 25%;
+    
+}

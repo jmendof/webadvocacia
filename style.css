@@ -1,3 +1,49 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+</style>
+
 :root{
+    --cor-de-fundo: #FFFFFF;
+    --cor-titulo: #094B72;
+    --cor-sub-titulo: #363940;
+    --cor-letras: #33475B;
+    --azul-principal: #094B72;
+    --fonte-da-web: 'Playfair Display', serif;
+}
+
+.apresentacao{
+    text-align: right;
+
+}
+
+.texto-apresentacao{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+.titulo{
+    color: #094B72;
+    font-family: var(--fonte-da-web);
+    display: flex;
+
+}
+.sub-titulo{
+    color: #363940;
+    font-size: medium;
+    font-family: var(--fonte-da-web);
+    display: flex;
+ }
+
+.quadro-empresas{
+    color: #33475B;
+    font-size: small;
+    font-family: var(--fonte-da-web);
+    display: flex;
+
+}
+
+.foto-principal{
+     width: 25%;
     
 }

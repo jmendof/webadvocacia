@@ -127,7 +127,7 @@ header {
 /* END FOTO */
 
 /* Servicos */
-.servicos-section {
+.servicos-background {
     margin-top: 1.2em;
     width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
     margin-left: -20em; /* Tirando a margin da esquerda*/
@@ -137,7 +137,11 @@ header {
 
 .texto-servicos{
     padding: 0 20em; /* Colocando padding de novo*/
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 
 /*############## END MAIN #############*/

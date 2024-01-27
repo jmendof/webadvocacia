@@ -29,7 +29,11 @@ header {
     justify-content: space-between;
     background-color: #094B72;
     border-radius: 6px;
+<<<<<<< Updated upstream
     padding: 2%; 
+=======
+    padding: 2%;
+>>>>>>> Stashed changes
 }
 
 /*LOGO*/
@@ -59,11 +63,15 @@ header {
 }
 
 .navbar a:visited {
+<<<<<<< Updated upstream
     color: white; /*Keep the same color after clicked: #33475B*/ 
 }
 
 .navbar a:hover {
     color: var(--azul-principal); /*Change the color when hover: #094B72*/
+=======
+    color: white; /*Keep the same color after clicked: #33475B*/ 
+>>>>>>> Stashed changes
 }
 /*END NAVBAR*/
 

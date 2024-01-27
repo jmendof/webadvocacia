@@ -198,19 +198,36 @@ header {
 
 .rodape-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #094B72;
     padding: 0 20em;
+    align-items: center;
 }
 .logo-wpp{
     width: 5%;
+    padding: 1em;
 }
 .logo-email{
     width: 5%;
-    color: white;
+    padding: 1em;
 }
 .logo-insta{
     width: 5%;
+    padding: 1m;
+}
+.wpp{
+    text-decoration: none;
+    color:white;
+}
+
+.email{
+    text-decoration: none;
+    color:white;
+}
+
+.insta{
+    text-decoration: none;
+    color:white;
 }
 
 /*############## END RODAPE #############*/

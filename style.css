@@ -181,29 +181,21 @@ header {
 
 .rodape{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #094B72;
-    border-radius: 3px;
+    border-radius: 6px;
+    margin-top: 12%;
+    padding: 2%;
 }
-.wpp{
-    text-decoration: none;
-    color: white;
-}
-.email{
-    text-decoration: none;
-    color: white;
-}
-.insta{
-    text-decoration: none;
-    color: white;
-}
-
 .logo-wpp{
-    width: 10px;
+    width: 5%;
 }
 .logo-email{
-
+    width: 5%;
+    color: white;
 }
 .logo-insta{
-    
+    width: 5%;
 }
+
+/*########### RODA PÉ FIM #########* /

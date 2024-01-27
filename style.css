@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0 20em;
     font-family: var(--fonte-da-barra-de-navegacao);
+    
 }
 /*############## END BODY #############*/
 
@@ -36,6 +37,7 @@ header {
     padding: 0 20em;
     margin-top: 0;
 }
+
 /*LOGO*/
 .logo img {
     width: 30%;
@@ -50,7 +52,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex;
 }
 
 .navbar li {
@@ -58,17 +60,17 @@ header {
 }
 
 .navbar a {
-    color: var(--cor-letras);
+    color: white;
     text-decoration: none;
     font-size: 0.8em;
 }
 
 .navbar a:visited {
-    color: white; /*Keep the same color after clicked: #33475B*/ 
+    color: white; /*Keep the same color after clicked: white*/ 
 }
 
 .navbar a:hover {
-    color: white; /*Keep the same color after clicked: #33475B*/ 
+    color: white; /*Keep the same color after clicked: white*/ 
 
 }
 /*END NAVBAR*/
@@ -161,6 +163,7 @@ header {
 .servicos-item-1, .servicos-item-2, .servicos-item-3, .servicos-item-4{
     width: 30%;
     min-height: 16em;
+    min-width: 16em;
     background-color: rgb(255, 255, 255);
     text-align: left;
     margin-top: 2em;

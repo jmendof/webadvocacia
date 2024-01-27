@@ -147,17 +147,20 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     column-gap: 10em;
-   
 }
 
 .servicos-item-1, .servicos-item-2, .servicos-item-3, .servicos-item-4{
     width: 30%;
+    min-height: 16em;
     background-color: rgb(255, 255, 255);
     text-align: left;
     margin-top: 2em;
     border-radius: 1em;
     box-shadow: 0.5em 1em 3em #2c2c2c;
- 
+}
+
+.servicos-item-3, .servicos-item-4{
+    margin-bottom: 2em;
 }
 
 .servicos-item-1 img, .servicos-item-2 img, .servicos-item-3 img, .servicos-item-4 img{
@@ -179,12 +182,12 @@ header {
 
 /*############## END MAIN #############*/
 
+/*############## RODAPE #############*/
 .rodape{
     display: flex;
     justify-content: space-around;
     background-color: #094B72;
     border-radius: 6px;
-    margin-top: 12%;
     padding: 2%;
 }
 .logo-wpp{
@@ -198,4 +201,6 @@ header {
     width: 5%;
 }
 
-/*########### RODA PÉ FIM #########* /
+/*############## END RODAPE #############*/
+
+/*########### RODAPE FIM #########* /

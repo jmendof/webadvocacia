@@ -126,20 +126,49 @@ header {
 }
 /* END FOTO */
 
-/* Servicos */
+/* SERVICOS */
 .servicos-background {
     margin-top: 1.2em;
     width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
     margin-left: -20em; /* Tirando a margin da esquerda*/
-    display: flex;
     background-color: #F2F7FF;
+    
 }
 
 .texto-servicos{
     padding: 0 20em; /* Colocando padding de novo*/
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 10em;
+   
 }
+
+.servicos-item-1, .servicos-item-2, .servicos-item-3, .servicos-item-4{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 2em;
+    border-radius: 1em;
+    box-shadow: 0.5em 1em 3em #2c2c2c;
+ 
+}
+
+.servicos-item-1 img, .servicos-item-2 img, .servicos-item-3 img, .servicos-item-4 img{
+    margin: 1em 0 0 1em;
+}
+
+.servicos-item-1 h3, .servicos-item-2 h3, .servicos-item-3 h3, .servicos-item-4 h3{
+    margin-left: 1em;
+}
+
+.servicos-item-1 p, .servicos-item-2 p, .servicos-item-3 p, .servicos-item-4 p{
+    margin: 1.4em;
+    font-size: 0.8em;
+    color: #8B8C8C;
+}
+
+/* END SERVICOS */
 
 
 

@@ -42,6 +42,7 @@
         "guarda",
         "imagem",
         "imobiliário",
+        "insta",
         "judiciais",
         "jurídicos",
         "lado",
@@ -53,6 +54,7 @@
         "melhores",
         "morais",
         "navegacao",
+        "navegação",
         "Outros",
         "partilha",
         "pensão",
@@ -61,6 +63,7 @@
         "reconhecimento",
         "recuperação",
         "responsabilidade",
+        "rodape",
         "serviços",
         "SOBRE",
         "solução",
@@ -74,6 +77,6 @@
         "tributário",
         "tributários",
         "união"
-     ],
+    ],
     "liveServer.settings.port": 5501
 }

@@ -93,16 +93,27 @@ header {
 .titulo{
     color: #094B72;
     font-size: 4em;
+    text-align: center;
 }
 
 .sub-titulo{
     color: #363940;
     font-size: medium;
+    text-align: center;
  }
 
-.quadro-empresas{
-    color: #33475B;
+.sobre-mim-titulo{
+    color: #2c2c2c;
     font-size: small;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-mim{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #33475B;
 }
 
 /* END APRESENTAÇÃO */

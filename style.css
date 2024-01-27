@@ -15,27 +15,27 @@
 body {
     background-color: var(--cor-de-fundo);
     margin: 0;
-    padding: 1em 20em;
+    padding: 0 20em;
     font-family: var(--fonte-da-barra-de-navegacao);
 }
 /*############## END BODY #############*/
 
 /*############## HEADER #############*/
 header {
+    width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
+    margin-left: -20em; /* Tirando a margin da esquerda*/
+}
+
+.header-items {
     font-family: var(--fonte-da-barra-de-navegacao);
     color: var(--cor-letras);
     display: flex; 
     align-items: center; 
     justify-content: space-between;
     background-color: #094B72;
-    border-radius: 6px;
-<<<<<<< Updated upstream
-    padding: 2%; 
-=======
-    padding: 2%;
->>>>>>> Stashed changes
+    padding: 0 20em;
+    margin-top: 0;
 }
-
 /*LOGO*/
 .logo img {
     width: 30%;
@@ -63,15 +63,12 @@ header {
 }
 
 .navbar a:visited {
-<<<<<<< Updated upstream
     color: white; /*Keep the same color after clicked: #33475B*/ 
 }
 
 .navbar a:hover {
-    color: var(--azul-principal); /*Change the color when hover: #094B72*/
-=======
     color: white; /*Keep the same color after clicked: #33475B*/ 
->>>>>>> Stashed changes
+
 }
 /*END NAVBAR*/
 
@@ -195,11 +192,15 @@ header {
 
 /*############## RODAPE #############*/
 .rodape{
+    width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
+    margin-left: -20em; /* Tirando a margin da esquerda*/
+}
+
+.rodape-items{
     display: flex;
     justify-content: space-around;
     background-color: #094B72;
-    border-radius: 6px;
-    padding: 2%;
+    padding: 0 20em;
 }
 .logo-wpp{
     width: 5%;

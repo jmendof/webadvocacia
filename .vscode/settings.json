@@ -42,5 +42,6 @@
         "texto",
         "Tirando",
         "titulo"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

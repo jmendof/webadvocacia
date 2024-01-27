@@ -27,6 +27,9 @@ header {
     display: flex; 
     align-items: center; 
     justify-content: space-between;
+    background-color: #094B72;
+    border-radius: 6px;
+    padding: 2%; 
 }
 
 /*LOGO*/
@@ -56,7 +59,7 @@ header {
 }
 
 .navbar a:visited {
-    color: var(--cor-letras); /*Keep the same color after clicked: #33475B*/ 
+    color: white; /*Keep the same color after clicked: #33475B*/ 
 }
 
 .navbar a:hover {

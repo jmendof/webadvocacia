@@ -163,7 +163,6 @@ header {
 .servicos-item-1, .servicos-item-2, .servicos-item-3, .servicos-item-4{
     width: 30%;
     min-height: 16em;
-    min-width: 16em;
     background-color: rgb(255, 255, 255);
     text-align: left;
     margin-top: 2em;

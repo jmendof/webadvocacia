@@ -93,16 +93,28 @@ header {
 .titulo{
     color: #094B72;
     font-size: 4em;
+    text-align: center;
 }
 
 .sub-titulo{
     color: #363940;
     font-size: medium;
+    text-align: center;
  }
 
-.quadro-empresas{
-    color: #33475B;
+.sobre-mim-titulo{
+    color: #2c2c2c;
     font-size: small;
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+.sobre-mim{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #33475B;
 }
 
 /* END APRESENTAÇÃO */
@@ -174,3 +186,26 @@ header {
 
 
 /*############## END MAIN #############*/
+
+
+
+
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: #094B72;
+    border-radius: 3px;
+}
+.wpp{
+    text-decoration: none;
+    color: white;
+}
+.email{
+    text-decoration: none;
+    color: white;
+}
+.insta{
+    text-decoration: none;
+    color: white;
+}

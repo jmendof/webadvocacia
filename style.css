@@ -157,3 +157,26 @@ header {
 
 
 /*############## END MAIN #############*/
+
+
+
+
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: #094B72;
+    border-radius: 3px;
+}
+.wpp{
+    text-decoration: none;
+    color: white;
+}
+.email{
+    text-decoration: none;
+    color: white;
+}
+.insta{
+    text-decoration: none;
+    color: white;
+}

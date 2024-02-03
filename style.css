@@ -1,77 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /*Fonte da barra de navegação*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); /*Fonte da web*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /*Fonte da barra de navegação*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"); /*Fonte da web*/
 
 :root {
-    --cor-de-fundo: #FFFFFF;
-    --cor-titulo: #094B72;
-    --cor-sub-titulo: #363940;
-    --cor-letras: #33475B;
-    --azul-principal: #094B72;
-    --fonte-da-barra-de-navegacao: poppins, serif; 
-    --fonte-da-web: 'Playfair Display', serif;
+  --cor-de-fundo: #ffffff;
+  --cor-titulo: #094b72;
+  --cor-sub-titulo: #363940;
+  --cor-letras: #33475b;
+  --azul-principal: #094b72;
+  --fonte-da-barra-de-navegacao: poppins, serif;
+  --fonte-da-web: "Playfair Display", serif;
 }
 
 /*############## BODY #############*/
+
 body {
-    background-color: var(--cor-de-fundo);
-    margin: 0;
-    padding: 0 20em;
-    font-family: var(--fonte-da-barra-de-navegacao);
-    
+  background-color: var(--cor-de-fundo);
+  margin: 0;
+  padding: 0 20em;
+  font-family: var(--fonte-da-barra-de-navegacao);
 }
 /*############## END BODY #############*/
 
 /*############## HEADER #############*/
 header {
-    width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
-    margin-left: -20em; /* Tirando a margin da esquerda*/
+  width: calc(
+    100% + 40em
+  ); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
+  margin-left: -20em; /* Tirando a margin da esquerda*/
 }
 
 .header-items {
-    font-family: var(--fonte-da-barra-de-navegacao);
-    color: var(--cor-letras);
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
-    background-color: #094B72;
-    padding: 0 20em;
-    margin-top: 0;
+  font-family: var(--fonte-da-barra-de-navegacao);
+  color: var(--cor-letras);
+  display: flex;
+  align-items: center;
+  justify-content: ;
+  background-color: #094b72;
+  padding: 0 20em;
+  margin-top: 0;
 }
 
 /*LOGO*/
 .logo img {
-    width: 30%;
-    margin-right: 1em;
-    padding: 1em;
+  width: 30%;
+  margin-right: 1em;
+  padding: 1em;
 }
 
 /*END LOGO*/
 
 /*NAVBAR*/
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .navbar li {
-    margin-left: 2em; 
+  margin-left: 2em;
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
 .navbar a:visited {
-    color: white; /*Keep the same color after clicked: white*/ 
+  color: white; /*Keep the same color after clicked: white*/
 }
 
 .navbar a:hover {
-    color: white; /*Keep the same color after clicked: white*/ 
-
+  color: white; /*Keep the same color after clicked: white*/
 }
 /*END NAVBAR*/
 
@@ -80,159 +81,258 @@ header {
 /*############## MAIN #############*/
 
 /* APRESENTAÇÃO */
-.apresentacao-section{
-    margin-top: 1.2em;
-    display: flex;
-    font-family: var(--fonte-da-web);
+.apresentacao-section {
+  margin-top: 1.2em;
+  display: flex;
+  font-family: var(--fonte-da-web);
 }
 
-.texto-apresentacao{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-right: 2em;
-    text-align: left;
-    width: 75%;
+.texto-apresentacao {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 2em;
+  text-align: left;
+  width: 75%;
 }
 
-.titulo{
-    color: #094B72;
-    font-size: 4em;
-    text-align: center;
+.titulo {
+  color: #094b72;
+  font-size: 4em;
+  text-align: center;
 }
 
-.sub-titulo{
-    color: #363940;
-    font-size: medium;
-    text-align: center;
- }
-
-.sobre-mim-titulo{
-    color: #2c2c2c;
-    font-size: small;
-    display: flex;
-    justify-content: center;
-    text-decoration:underline;
+.sub-titulo {
+  color: #363940;
+  font-size: medium;
+  text-align: center;
 }
 
-.sobre-mim{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: #33475B;
+.sobre-mim-titulo {
+  color: #2c2c2c;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.sobre-mim {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #33475b;
 }
 
 /* END APRESENTAÇÃO */
 
 /* FOTO */
 .apresentacao-imagem {
-    width: 25%;
+  width: 25%;
 }
-.foto-principal{
-    width: 90%;
-    border-radius: 5%; /*Deixa a imagem arredondada*/
-    box-shadow: 1em 0.5em 3em #2c2c2c; /*Sombra: Distancia horizontal, vertical, dispersao e cor*/
-    margin-right: 0; /*Para telas grandes*/
-    margin-bottom: 1em;
-    
+.foto-principal {
+  width: 90%;
+  border-radius: 5%; /*Deixa a imagem arredondada*/
+  box-shadow: 1em 0.5em 3em #2c2c2c; /*Sombra: Distancia horizontal, vertical, dispersao e cor*/
+  margin-right: 0; /*Para telas grandes*/
+  margin-bottom: 1em;
 }
-.foto-principal-texto{
-    text-align: center;
-    margin: 0;
-    
+.foto-principal-texto {
+  text-align: center;
+  margin: 0;
+  font-size: small;
 }
 /* END FOTO */
 
 /* SERVICOS */
 .servicos-background {
-    margin-top: 1.2em;
-    width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
-    margin-left: -20em; /* Tirando a margin da esquerda*/
-    background-color: #F2F7FF;
-    
+  margin-top: 1.2em;
+  width: calc(
+    100% + 40em
+  ); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
+  margin-left: -20em; /* Tirando a margin da esquerda*/
+  background-color: #f2f7ff;
 }
 
-.texto-servicos{
-    padding: 0 20em; /* Colocando padding de novo*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    column-gap: 10em;
+.texto-servicos {
+  padding: 0 20em; /* Colocando padding de novo*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 10em;
 }
 
-.servicos-item-1, .servicos-item-2, .servicos-item-3, .servicos-item-4{
-    width: 30%;
-    min-height: 16em;
-    background-color: rgb(255, 255, 255);
-    text-align: left;
-    margin-top: 2em;
-    border-radius: 1em;
-    box-shadow: 0.5em 1em 3em #2c2c2c;
+.servicos-item-1,
+.servicos-item-2,
+.servicos-item-3,
+.servicos-item-4 {
+  width: 30%;
+  min-height: 16em;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 2em;
+  border-radius: 1em;
+  box-shadow: 0.5em 1em 3em #2c2c2c;
 }
 
-.servicos-item-3, .servicos-item-4{
-    margin-bottom: 2em;
+.servicos-item-3,
+.servicos-item-4 {
+  margin-bottom: 2em;
 }
 
-.servicos-item-1 img, .servicos-item-2 img, .servicos-item-3 img, .servicos-item-4 img{
-    margin: 1em 0 0 1em;
+.servicos-item-1 img,
+.servicos-item-2 img,
+.servicos-item-3 img,
+.servicos-item-4 img {
+  margin: 1em 0 0 1em;
 }
 
-.servicos-item-1 h3, .servicos-item-2 h3, .servicos-item-3 h3, .servicos-item-4 h3{
-    margin-left: 1em;
+.servicos-item-1 h3,
+.servicos-item-2 h3,
+.servicos-item-3 h3,
+.servicos-item-4 h3 {
+  margin-left: 1em;
 }
 
-.servicos-item-1 p, .servicos-item-2 p, .servicos-item-3 p, .servicos-item-4 p{
-    margin: 1.4em;
-    font-size: 0.8em;
-    color: #8B8C8C;
+.servicos-item-1 p,
+.servicos-item-2 p,
+.servicos-item-3 p,
+.servicos-item-4 p {
+  margin: 1.4em;
+  font-size: 0.8em;
+  color: #8b8c8c;
 }
 
 /* END SERVICOS */
 
-
 /*############## END MAIN #############*/
 
 /*############## RODAPE #############*/
-.rodape{
-    width: calc(100% + 40em); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
-    margin-left: -20em; /* Tirando a margin da esquerda*/
+.rodape {
+  width: calc(
+    100% + 40em
+  ); /* Deixa o background em 100% mais os 40em de padding que tem em cada lado*/
+  margin-left: -20em; /* Tirando a margin da esquerda*/
 }
 
-.rodape-items{
-    display: flex;
-    justify-content: space-between;
-    background-color: #094B72;
-    padding: 0 20em;
-    align-items: center;
+.rodape-items {
+  display: flex;
+  justify-content: space-between;
+  background-color: #094b72;
+  padding: 0 20em;
+  align-items: center;
 }
-.logo-wpp{
-    width: 5%;
-    padding: 1em;
+.logo-wpp {
+  width: 5%;
+  padding: 1em;
 }
-.logo-email{
-    width: 5%;
-    padding: 1em;
+.logo-email {
+  width: 5%;
+  padding: 1em;
 }
-.logo-insta{
-    width: 5%;
-    padding: 1m;
+.logo-insta {
+  width: 5%;
+  padding: 1m;
 }
-.wpp{
-    text-decoration: none;
-    color:white;
-}
-
-.email{
-    text-decoration: none;
-    color:white;
+.wpp {
+  text-decoration: none;
+  color: white;
 }
 
-.insta{
-    text-decoration: none;
-    color:white;
+.email {
+  text-decoration: none;
+  color: white;
+}
+
+.insta {
+  text-decoration: none;
+  color: white;
 }
 
 /*############## END RODAPE #############*/
 
 /*########### RODAPE FIM #########* /
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 896px) {
+  body {
+    padding: 0 20px; /* Adiciona um padding para melhor visualização em dispositivos móveis */
+    font-family: var(--fonte-da-barra-de-navegacao);
+  }
+
+  /* Header */
+  header {
+    padding: 20px; /* Adiciona um padding ao cabeçalho */
+    margin-left: 0;
+  }
+
+  .header-items {
+    padding: 0; /* Remove o padding do cabeçalho */
+  }
+
+  .navbar ul {
+    padding: 0; /* Remove o padding da lista */
+  }
+
+  .navbar li {
+    margin-left: 10px; /* Aumenta a margem entre os itens do menu */
+  }
+
+  /* Apresentação */
+  .apresentacao-section {
+    padding: 20px 0; /* Adiciona um padding à seção de apresentação */
+  }
+
+  .texto-apresentacao {
+    padding-right: 0; /* Remove o padding direito */
+    width: 100%; /* Define a largura total */
+  }
+
+  .foto-principal {
+    width: 100%; /* Faz com que a imagem principal ocupe toda a largura */
+  }
+
+  /* Serviços */
+  .servicos-background {
+    padding: 20px 0; /* Adiciona um padding à seção de serviços */
+  }
+
+  .texto-servicos {
+    padding: 0; /* Remove o padding */
+    flex-direction: column; /* Altera a direção do flexbox para coluna */
+    align-items: center; /* Centraliza os itens */
+  }
+
+  .servicos-item {
+    width: 100%; /* Faz com que os itens de serviço ocupem toda a largura */
+    margin-bottom: 20px; /* Adiciona um espaço entre os itens */
+  }
+
+  /* Rodapé */
+  .rodape {
+    padding: 20px 0; /* Adiciona um padding ao rodapé */
+  }
+
+  .rodape-items {
+    padding: 0; /* Remove o padding */
+    flex-direction: column; /* Altera a direção do flexbox para coluna */
+    align-items: center; /* Centraliza os itens */
+  }
+
+  .logo-wpp,
+  .logo-email,
+  .logo-insta {
+    width: 40px; /* Redimensiona o tamanho dos ícones */
+    margin: 10px; /* Adiciona um espaço entre os ícones */
+  }
+}
+
+/* Estilos para desktop (maior que 767px) */
+@media only screen and (min-width: 768px) {
+  /* Adicione aqui os estilos que devem ser aplicados apenas para desktop */
+}
+
+/* Estilos para desktop (maior que 767px) */
+@media only screen and (min-width: 768px) {
+  /* Adicione aqui os estilos que devem ser aplicados apenas para desktop */
+}
